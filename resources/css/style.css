@@ -163,19 +163,22 @@ nav {
   }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 700px) {
 
   .container {
     width: 100%;
   }
 
-  .header {
+.header {
     background-position: 20%;
   }
 
-  #header-title {
-    margin-right: 25%;
-  }
+.header .container {
+  padding: 0;
+}
+#header-title {
+    margin-right: 40%;
+}
 
   .headline {
     font-size: 1rem;
@@ -188,24 +191,20 @@ nav {
   .perks-info .container {
     display: flex;
     justify-content: center;
-    margin: 3.75rem auto;
+    margin: 3.75rem 0;
+    height: 30rem;
   }
 
-
 .information .container,.perks-info .container {
-  align-content: center;
+  align-items: center;
   flex-direction: column;
   justify-content: space-between;
 }
 
-.perks-info .container {
-  height: 30rem;
-  margin: 3.77rem auto;
-}
-
 .information h2 {
-  margin-top: 4rem;
+  margin-top: 5rem;
   text-align: center;
+  padding: 0;
   width: 100%;
 }
 
@@ -213,8 +212,16 @@ nav {
   width: 30rem;
 }
 
+#philosophy {
+  margin: 0;
+}
+
 .footer .container {
+  align-items: center;
+  padding: 0;
+  height: 7rem;
   justify-content: center;
+  width: 10rem;
 }
 
 .footer p {
