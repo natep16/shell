@@ -157,7 +157,7 @@ nav {
   #menu-option {
     display: block;
   }
-  
+
   .option {
     display: none;
   }
@@ -193,9 +193,9 @@ nav {
 
 
 .information .container,.perks-info .container {
-  align-content: space-between;
-  justify-content: center;
-  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .perks-info .container {
